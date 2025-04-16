@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Carbon Footprint Tracker</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>🌍 Carbon Footprint Tracker</header>
-  <div class="clock" id="clock"></div>
+  <div class="clock" id="clock">
+    <span class="clock-time">🕒 12:45:32 PM</span>
+    <span class="clock-day">Monday</span>
+    <span class="clock-date">April 16, 2025</span>
+  </div>
 
   <div class="hero">
     Realtime monitoring of soil moisture, ambient light, and weather data – helping you understand environmental impact and sustainability from the ground up.
@@ -49,8 +53,12 @@
 
   <div class="impact-card" id="carbonCard">
     <div class="eco-header">🌎 Your Impact: Carbon Emissions Reduced</div>
-    <p>You've avoided wasting approximately <span class="highlight" id="litersSaved">0</span> liters of water.</p>
-    <p>That's roughly <span class="highlight" id="co2Saved">0.00</span> kg of CO₂ emissions saved so far! 💚</p>
+    <p>
+      You've avoided wasting approximately <span class="highlight" id="litersSaved">0</span> liters of water.
+    </p>
+    <p>
+      That's roughly <span class="highlight" id="co2Saved">0.00</span> kg of CO₂ emissions saved so far! 💚
+    </p>
     <p><em>Keep growing green habits. Every drop matters!</em></p>
   </div>
 
